@@ -32,7 +32,7 @@ api.add_resource(HealthCheck, '/ws/healthz/')
 class Info(Resource):
     description = {
         'id': 'nationalparks-py',
-        'displayName': 'A Fancy National Parks App',
+        'displayName': 'OpenShift National Parks',
         'type': 'cluster',
         'center': {'latitude': '47.039304', 'longitude': '14.505178'},
         'zoom': 4
